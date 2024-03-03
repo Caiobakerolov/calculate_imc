@@ -1,0 +1,30 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+input {
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #000;
+  text-align: center;
+  align-items: center;
+  width: 40%;
+  border: none;
+}
+
+.text {
+  font-size: 1.2rem;
+  font-weight: 100;
+  color: #fff;
+}
+
+.name, .imc, .classification {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+}
